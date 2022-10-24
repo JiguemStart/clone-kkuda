@@ -2,7 +2,34 @@
 - 상품을 렌탈&판매하는 '꾸다'라는 웹서비스를 그대로 Copy & 발전시켜 만든 웹 서비스입니다. 본래의 기능들에서 더 나아가 관리자기능까지 추가하여 좀 더 완성도 있는 서비스를 구현하고자 하였습니다.
 
 
-# 2 핵심기능 (움짤추가)
+# 2 핵심기능 
+
+|상품 등록|파트너스 조회|
+|---|---|
+|![물품등록](https://user-images.githubusercontent.com/103481518/197651038-dda5eb39-460a-4843-9ac4-c19dc35fe2cc.gif)|![partners](https://user-images.githubusercontent.com/103481518/197651327-9ec8b724-d23e-47e5-be5b-7e8aed27bf6a.gif)|
+
+|렌탈 기능|대량 견적|
+|---|---|
+|![렌탈](https://user-images.githubusercontent.com/103481518/197651056-1dcdf0e0-844d-41a1-a0cf-cac68173415b.gif)|![견적신청서](https://user-images.githubusercontent.com/103481518/197651053-7ac27c1f-9eb6-42f0-83e4-163f1066efe9.gif)|
+
+|장바구니 및 구매|행사용품 대량 견적|
+|---|---|
+|![장바구니](https://user-images.githubusercontent.com/103481518/197651079-dd4b1c0b-81c1-4a84-8c01-110a5d3d6403.gif)|![행사용품 견적신청](https://user-images.githubusercontent.com/103481518/197651488-42f19b0b-e318-4fc4-b142-20a1a63464ac.gif)|
+
+|검색 기능|후기 조회 및 검색|
+|---|---|
+|![검색](https://user-images.githubusercontent.com/103481518/197651051-d31104de-611e-4d07-9966-513072479ebf.gif)|![리뷰](https://user-images.githubusercontent.com/103481518/197651062-94b3a5ec-fb3b-471d-b987-9f7cb80b10d7.gif)|
+
+
+
+
+
+
+
+
+
+
+
 - 장바구니, 구매기능
 - 렌탈기능
 - 대량견적신청(행사용품)
@@ -11,7 +38,7 @@
 - 후기,답변 기능
 - 관리자 관리기능 (상품등록시키기, 대량견적, 파트너스조회)
 
-![Oct-24-2022 16-59-53](https://user-images.githubusercontent.com/103481518/197477163-6bd7c4b3-3447-4881-9869-73ec81d3bdbf.gif)
+
 
 
 # 팀문화
