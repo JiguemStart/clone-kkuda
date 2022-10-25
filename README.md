@@ -8,22 +8,32 @@
 
 |상품 등록|파트너스 조회|
 |---|---|
-|![물품등록](https://user-images.githubusercontent.com/103481518/197651038-dda5eb39-460a-4843-9ac4-c19dc35fe2cc.gif)|![partners](https://user-images.githubusercontent.com/103481518/197651327-9ec8b724-d23e-47e5-be5b-7e8aed27bf6a.gif)|
+|![0물품등록](https://user-images.githubusercontent.com/103481518/197725199-d89ea349-704f-4b28-9678-ec9c0d57d03a.gif)|![0파트너스 2](https://user-images.githubusercontent.com/103481518/197725264-8356d9b6-1db0-4a98-838c-4385617689a9.gif)|
+
+
 
 |렌탈 기능|대량 견적|
 |---|---|
-|![렌탈](https://user-images.githubusercontent.com/103481518/197651056-1dcdf0e0-844d-41a1-a0cf-cac68173415b.gif)|![견적신청서](https://user-images.githubusercontent.com/103481518/197651053-7ac27c1f-9eb6-42f0-83e4-163f1066efe9.gif)|
+|![0렌탈](https://user-images.githubusercontent.com/103481518/197725332-28a47dd1-52a7-4a39-b63d-87aa3e0db40b.gif)|![0견적신청서](https://user-images.githubusercontent.com/103481518/197725393-a18abd45-b48c-43d4-822d-375ca1177035.gif)|
+
+
 
 |장바구니 및 구매|행사용품 대량 견적|
 |---|---|
-|![장바구니](https://user-images.githubusercontent.com/103481518/197651079-dd4b1c0b-81c1-4a84-8c01-110a5d3d6403.gif)|![행사용품 견적신청](https://user-images.githubusercontent.com/103481518/197651488-42f19b0b-e318-4fc4-b142-20a1a63464ac.gif)|
+|![0장바구니](https://user-images.githubusercontent.com/103481518/197725491-219507c8-fc98-418c-a7d9-b50f1b1360b2.gif)|![0행사용품2](https://user-images.githubusercontent.com/103481518/197725471-962c1cd2-3805-42e8-aa51-c910b1647c51.gif)|
+
+
 
 |검색 기능|후기 조회 및 검색|
 |---|---|
-|![검색](https://user-images.githubusercontent.com/103481518/197651051-d31104de-611e-4d07-9966-513072479ebf.gif)|![리뷰](https://user-images.githubusercontent.com/103481518/197651062-94b3a5ec-fb3b-471d-b987-9f7cb80b10d7.gif)|
+|![0검색](https://user-images.githubusercontent.com/103481518/197725586-b160f6ae-e29a-44c4-afda-390e6be39739.gif)|![0후기4](https://user-images.githubusercontent.com/103481518/197725613-bbf88a26-58e9-4e77-aed8-99c21a58f5fe.gif)|
+|질문관리 & 답변작성||
+|![0답변](https://user-images.githubusercontent.com/103481518/197725791-ff0e764d-33f8-421e-b333-7195a446f7d0.gif)||
 
 
-
+|질문관리 & 답변작성|
+|---|
+|![0답변](https://user-images.githubusercontent.com/103481518/197725791-ff0e764d-33f8-421e-b333-7195a446f7d0.gif)|
 
 
 
