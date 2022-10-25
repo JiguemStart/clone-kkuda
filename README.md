@@ -31,10 +31,6 @@
 |![0답변](https://user-images.githubusercontent.com/103481518/197725791-ff0e764d-33f8-421e-b333-7195a446f7d0.gif)||
 
 
-|질문관리 & 답변작성|
-|---|
-|![0답변](https://user-images.githubusercontent.com/103481518/197725791-ff0e764d-33f8-421e-b333-7195a446f7d0.gif)|
-
 
 
 
