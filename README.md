@@ -65,7 +65,11 @@
 ### Backend
 - Springboot, Java 11, Maven, JPA, Swagger, MariaDB
 
-![image](https://user-images.githubusercontent.com/70586428/197376839-d0efa8f9-f081-4975-b07e-747a329744f0.png)
+# Member
+|Back-end|Front-end|
+|:---:|:---:|
+|<img src="https://user-images.githubusercontent.com/70586428/197694674-88686917-38b4-4d9c-8a6e-93367fb56055.jpg" width="100"/>|<img src="https://user-images.githubusercontent.com/70586428/197694865-bed0e866-9b90-4c07-ad3f-6e86858c44e4.png" width="100"/> 
+|[안인택](https://github.com/intacka)|[위요섭](https://github.com/joseph-wee)|
 
 # Wiki
 [Wiki 보러가기](https://github.com/JiguemStart/clone-kkuda/wiki)
