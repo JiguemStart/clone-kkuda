@@ -66,6 +66,3 @@
 - Springboot, Java 11, Maven, JPA, Swagger, MariaDB
 
 ![image](https://user-images.githubusercontent.com/70586428/197376839-d0efa8f9-f081-4975-b07e-747a329744f0.png)
-
-# 기술에대한 설명
-- ????
