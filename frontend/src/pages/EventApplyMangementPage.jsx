@@ -1,0 +1,222 @@
+import React, { useEffect } from 'react'
+import styled from 'styled-components'
+import { useState } from 'react';
+import axios from 'axios';
+
+const EventApplyMangementPage = () => {
+  const [active, setActive] = useState(false)
+  const [electList, setElectList] = useState([])
+  const [seeDetailStatus, setSeeDetailstatus] = useState([])
+  /**노트북 리스트 api호출 함수 */
+  const partnersListRequest = async () => {
+    try {
+      const res = await axios
+        .get(`http://localhost:8080/estimate/view-list/tv`)
+        .then((res) => {
+          let array = electList
+          let array2 = []
+          array = res.data
+          array.forEach((i) => {
+            console.log("몇번되")
+            array2.push(false)
+          })
+          setElectList([...array])
+          setSeeDetailstatus([...array2])
+        });
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  /**노트북 확인 요청 api함수 */
+  const partnersPermissionRequest = async (e) => {
+    try {
+      const res = await axios
+        .put(`http://localhost:8080/estimate/approval/tv?id=${e.target.id}`)
+        .then((res) => {
+          console.log("확인 완료")
+        });
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  /**자세히보기 상태값 변경시켜서 파트너스 자세히 보게하는 함수 */
+  const seeDetail = (j) => {
+    console.log("되는겨?")
+    let array = seeDetailStatus
+    array[j] = !array[j]
+    setSeeDetailstatus([...array])
+    console.log(j)
+  }
+
+  useEffect(() => {
+    partnersListRequest()
+  }, [])
+
+  return (
+    <Container>
+      <Title>행사용품 신청서 관리</Title>
+      <PartnersList>
+        <ListContainer>
+          <Box>자세히 버튼</Box>
+        <Box>id</Box>
+        <Box>목적</Box>
+        <Box>설치날짜</Box>
+        <Box>회수날짜</Box>
+
+        <Box>담당자</Box>
+        <Box>연락처</Box>
+        <Box>허가 버튼</Box>
+        </ListContainer>
+
+
+      <ListContainer>
+      <DetailButton onClick={()=>setActive(true)}>자세히</DetailButton>
+      <Id>1</Id>
+      <BusinessName>1234</BusinessName>
+      <ServiceName>1234</ServiceName>
+      <Representative>1234</Representative>
+
+      <Name>1234</Name>
+      <Phone>1234</Phone>
+      <Permission >확인</Permission>
+      </ListContainer>
+     
+      <BoxC active={active}>
+        <br /><br/>
+        <DetailList><Li>id </Li> 1</DetailList> 
+        <DetailList><Li>물품목록 </Li> [PMC음향]음향장비 유선마이크 x 3, [한빛네트웍스] 무전기 MDR-G1 x 5, [탑렌탈주] 듀라테이블 1800 x 2</DetailList> 
+        <DetailList><Li>링크 </Li> 1234</DetailList> 
+        <DetailList><Li>행사 </Li> 1234</DetailList> 
+        <DetailList><Li>사용용도 </Li> 1234</DetailList> 
+        <DetailList><Li>배송날짜</Li> 1234</DetailList> 
+        <DetailList><Li>회수날짜 </Li> 1234</DetailList> 
+        <DetailList><Li>주소 </Li> test</DetailList> 
+        <DetailList><Li>설치필요 유무 </Li> 네</DetailList> 
+        <DetailList><Li>엘리베이터 사용 유무 </Li> 유</DetailList> 
+        <DetailList><Li>담당자 이름 </Li> 1234</DetailList> 
+        <DetailList><Li>담당자 연락처 </Li> 1234</DetailList> 
+        <DetailList><Li>담당자 이메일 </Li> 1234</DetailList> 
+        <DetailList><Li>세금 계산용 이메일 </Li> 1234</DetailList> 
+        <DetailList><Li>확인 유무 </Li> 0</DetailList> 
+        <DetailList><Li>memberId </Li> 1</DetailList> 
+        <DetailList><Li>기타 요구사항 </Li> 1234</DetailList> 
+        </BoxC>
+
+      </PartnersList>
+    </Container>
+  )
+}
+
+const Li = styled.div`
+  display: inline-block;
+  width: 150px;
+  margin-bottom: 5px;
+`
+
+const BoxC = styled.div`
+  display: ${props => {
+    return props.active ? "block" : "none"
+  }}
+`
+
+const Container = styled.div`
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding-top: 100px;
+  max-width: 1200px;
+`;
+const Title = styled.div`
+  margin-bottom: 50px;
+  font-size: 32px;
+  font-weight: 600;
+`;
+const PartnersList = styled.div`
+
+`;
+const ListContainer = styled.div`
+  display: flex;
+`;
+const Box = styled.div`
+border: 0.5px solid black;
+  width: 20%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+`;
+const DetailButton = styled.div`
+border: 0.5px solid black;
+  width: 20%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+`;
+const Id = styled.div`
+border: 0.5px solid black;
+  width: 20%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+`;
+const BusinessName = styled.div`
+border: 0.5px solid black;
+  width: 20%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+`;
+const ServiceName = styled.div`
+border: 0.5px solid black;
+  width: 20%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+`;
+const Representative = styled.div`
+border: 0.5px solid black;
+  width: 20%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+`;
+const Category = styled.div`
+border: 0.5px solid black;
+  width: 20%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+`;
+const Name = styled.div`
+border: 0.5px solid black;
+  width: 20%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+`;
+const Phone = styled.div`
+border: 0.5px solid black;
+  width: 20%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+`;
+const Permission = styled.div`
+border: 0.5px solid black;
+  width: 20%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+`;
+
+const DetailList = styled.div`
+width: 830px;
+margin-top: 5px;
+margin-bottom: 5px;
+padding-left: 20px;
+margin-left: 30px;
+border-bottom: 0.5px solid gray;
+`
+
+export default EventApplyMangementPage
