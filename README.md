@@ -25,7 +25,7 @@
 
 
 |검색 기능|후기 조회 및 검색|
-|---|---|
+|:---:|:---:|
 |![0검색](https://user-images.githubusercontent.com/103481518/197725586-b160f6ae-e29a-44c4-afda-390e6be39739.gif)|![0후기4](https://user-images.githubusercontent.com/103481518/197725613-bbf88a26-58e9-4e77-aed8-99c21a58f5fe.gif)|
 |질문관리 & 답변작성||
 |![0답변](https://user-images.githubusercontent.com/103481518/197725791-ff0e764d-33f8-421e-b333-7195a446f7d0.gif)||
