@@ -8,7 +8,8 @@
 
 |상품 등록|파트너스 조회|
 |---|---|
-|![0물품등록](https://user-images.githubusercontent.com/103481518/197725199-d89ea349-704f-4b28-9678-ec9c0d57d03a.gif)|![0파트너스 2](https://user-images.githubusercontent.com/103481518/197725264-8356d9b6-1db0-4a98-838c-4385617689a9.gif)|
+|![0물품등록](https://user-images.githubusercontent.com/103481518/197725199-d89ea349-704f-4b28-9678-ec9c0d57d03a.gif)|![0파트너스진짜](https://user-images.githubusercontent.com/103481518/197917214-17997f97-ec47-4dfb-a4d6-a9f1f253ba6a.gif)|
+
 
 
 
@@ -20,7 +21,8 @@
 
 |장바구니 및 구매|행사용품 대량 견적|
 |---|---|
-|![0장바구니](https://user-images.githubusercontent.com/103481518/197725491-219507c8-fc98-418c-a7d9-b50f1b1360b2.gif)|![0행사용품2](https://user-images.githubusercontent.com/103481518/197725471-962c1cd2-3805-42e8-aa51-c910b1647c51.gif)|
+|![0장바구니최종](https://user-images.githubusercontent.com/103481518/197917183-176040a5-10f7-4d0c-9373-8be47e8616c1.gif)|![0행사용품2](https://user-images.githubusercontent.com/103481518/197725471-962c1cd2-3805-42e8-aa51-c910b1647c51.gif)|
+
 
 
 
